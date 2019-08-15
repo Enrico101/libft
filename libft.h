@@ -6,7 +6,7 @@
 /*   By: enradcli <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/06/05 14:39:07 by enradcli          #+#    #+#             */
-/*   Updated: 2019/06/21 11:01:05 by enradcli         ###   ########.fr       */
+/*   Updated: 2019/08/15 13:21:37 by enradcli         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,6 +17,7 @@
 # include <stdlib.h>
 # include <unistd.h>
 
+void    ft_swap(int *a, int *b);
 void	*ft_memset(void *b, int c, size_t len);
 void	ft_bzero(void *s, size_t n);
 void	*ft_memcpy(void *dst, const void *src, size_t n);
